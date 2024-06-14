@@ -14,6 +14,7 @@
 		7CD295C62C1C810200CCB8DD /* ClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD295C52C1C810200CCB8DD /* ClockTests.swift */; };
 		7CD295D02C1C810200CCB8DD /* ClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD295CF2C1C810200CCB8DD /* ClockUITests.swift */; };
 		7CD295D22C1C810200CCB8DD /* ClockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD295D12C1C810200CCB8DD /* ClockUITestsLaunchTests.swift */; };
+		7CD295E32C1C8D4D00CCB8DD /* AlarmSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7CD295E22C1C8D4D00CCB8DD /* AlarmSound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		7CD295CB2C1C810200CCB8DD /* ClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CD295CF2C1C810200CCB8DD /* ClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockUITests.swift; sourceTree = "<group>"; };
 		7CD295D12C1C810200CCB8DD /* ClockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7CD295E22C1C8D4D00CCB8DD /* AlarmSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = AlarmSound.mp3; path = ../../../../Downloads/AlarmSound.mp3; sourceTree = "<group>"; };
+		7CD295E42C1C8D5400CCB8DD /* AlarmSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AlarmSound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,7 @@
 		7CD295A82C1C810100CCB8DD = {
 			isa = PBXGroup;
 			children = (
+				7CD295E22C1C8D4D00CCB8DD /* AlarmSound.mp3 */,
 				7CD295B32C1C810100CCB8DD /* Clock */,
 				7CD295C42C1C810200CCB8DD /* ClockTests */,
 				7CD295CE2C1C810200CCB8DD /* ClockUITests */,
@@ -94,6 +98,7 @@
 		7CD295B32C1C810100CCB8DD /* Clock */ = {
 			isa = PBXGroup;
 			children = (
+				7CD295E42C1C8D5400CCB8DD /* AlarmSound.mp3 */,
 				7CD295B42C1C810100CCB8DD /* ClockApp.swift */,
 				7CD295B62C1C810100CCB8DD /* ContentView.swift */,
 				7CD295B82C1C810200CCB8DD /* Assets.xcassets */,
@@ -232,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CD295BC2C1C810200CCB8DD /* Preview Assets.xcassets in Resources */,
+				7CD295E32C1C8D4D00CCB8DD /* AlarmSound.mp3 in Resources */,
 				7CD295B92C1C810200CCB8DD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
